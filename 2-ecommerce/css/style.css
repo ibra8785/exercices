@@ -1,0 +1,120 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* CSS of Box Content */
+
+.boxContent
+{
+    height: 100vh;
+    display: flex;
+    padding: 110px 100px;
+}
+
+/* CSS of Content Left */
+
+.contentLeft
+{
+    flex: 1;
+    height: 70vh;
+    background-color: #fcf7f2;
+    margin: 30px 50px 30px 130px;
+}
+
+.contentLeft img
+{
+    height: 500px;
+    width: 500px;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+/* CSS of Content Right */
+
+.contentRight
+{
+    flex: 1;
+    height: 70vh;
+    margin: 30px 130px 30px 40px;
+}
+.firstRight
+{
+    height: 50px;
+    margin-bottom: 40px;
+    padding-left: 10px;
+}
+
+.firstRight:hover
+{
+    border-left: 3px solid #838383;
+}
+
+.firstRight span
+{
+    color: #01839b;
+    font-size: 20px;
+}
+
+.firstRight p
+{
+    margin-top: 10px;
+    color: #989898;
+    font-size: 20px;
+}
+
+.secondRight p
+{
+    color: #989898;
+    font-size: 50px;
+    padding-bottom: 30px;
+}
+
+.thirdRight h3,p
+{
+    color: #989898;
+    margin-bottom: 20px;
+}
+
+.thirdRight p
+{
+    font-size: 25px;
+}
+
+.fourthRight
+{
+    display: flex;
+}
+
+button
+{
+    height: 60px;
+    width: 160px;
+    background-color:  #01839b;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 25px;
+    color: white;
+}
+
+.quantity
+{
+    margin-left: 120px;
+}
+
+.quantity p
+{
+    color: black;
+    font-size: 30px;
+}
+
+.quantity span
+{
+    color: #989898;
+}
+

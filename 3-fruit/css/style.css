@@ -1,0 +1,162 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* CSS of Box Content */
+
+.boxContent
+{
+    height: 100vh;
+    margin: 0 30% 0 30%;
+    padding-top: 40px;
+}
+
+/* CSS of First Part */
+
+.firstPart
+{
+    display: flex;
+    justify-content: space-between;
+    min-height: 300px;
+    padding: 20px 80px;
+}
+
+.firstPart__Left
+{
+    min-height: 200px;
+    box-shadow: 6px 6px 6px #cdcdcd;
+    border-radius: 10px;
+}
+
+.firstPart__Right
+{
+    box-shadow: 6px 6px 6px #cdcdcd;
+    border-radius: 10px;
+}
+
+.first__illustrationLeft
+{
+    height: 300px;
+    width: 300px;
+    background-color: #e6d49c;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.firstPart img
+{
+    height: 150px;
+    width: 150px;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.description
+{
+    background-color: #ffffff;
+    height: 150px;
+    width: 300px;
+    padding-top: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.description h2,p
+{
+    padding: 10px 20px;
+}
+
+.first__illustrationRight
+{
+    height: 300px;
+    width: 300px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background-color:#DEB887;
+}
+
+/* CSS of First Part */
+
+.secondPart
+{
+    display: flex;
+    justify-content: space-between;
+    min-height: 300px;
+    padding: 20px 80px;
+}
+
+.secondPart__Left
+{
+    min-height: 200px;
+    box-shadow: 6px 6px 6px #cdcdcd;
+    border-radius: 10px;
+}
+
+.secondPart__Right
+{
+    box-shadow: 6px 6px 6px #cdcdcd;
+    border-radius: 10px;
+}
+
+.second__illustrationLeft
+{
+    height: 300px;
+    width: 300px;
+    background-color: #AFE184;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.secondPart img
+{
+    height: 150px;
+    width: 150px;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.description
+{
+    background-color: #ffffff;
+    height: 130px;
+    width: 300px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.description h2,p
+{
+    padding: 10px 20px;
+}
+
+.second__illustrationRight
+{
+    height: 300px;
+    width: 300px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background-color: #F7F376;
+}
+
+.detail
+{
+    display: flex;
+}
+
+.detail div
+{
+    height: 30px;
+    width: 80px;
+    border-radius: 20px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    margin-left: 70px;
+}
+
